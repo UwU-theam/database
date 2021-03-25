@@ -31,7 +31,7 @@ CREATE TABLE `videos` (
   `date` varchar(45) DEFAULT NULL,
   `file_name` varchar(200) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=49 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -40,7 +40,7 @@ CREATE TABLE `videos` (
 
 LOCK TABLES `videos` WRITE;
 /*!40000 ALTER TABLE `videos` DISABLE KEYS */;
-INSERT INTO `videos` VALUES (2,2000000000,'11111','video big name no realy big name','vi','1','video1.mp4'),(3,2,'21111','video big name no realy big name','2','2','video1.mp4'),(4,1,'11111','video big name no realy big name','1','1','video1.mp4'),(5,11,'11111','video big name no realy big name','1','1','video2.mp4'),(6,1,'1','1','1','1','video1.mp4'),(7,1,'1','1','1','1','video2.mp4'),(8,1,'itsme','video name must be here okay?','oooo descriotion','123','video1.mp4'),(9,1,'itsme','video name must be here okay?','oooo descriotion','123','video1.mp4'),(10,1,'itsme','video name must be here okay?','oooo descriotion','123','video1.mp4'),(11,1,'itsme','video name must be here okay?','oooo descriotion','123','video1.mp4'),(12,1,'itsme','video name must be here okay?','oooo descriotion','123','video1.mp4'),(13,1,'itsme','video name must be here okay?','oooo descriotion','123','video1.mp4'),(14,1,'itsme','video name must be here okay?','oooo descriotion','123','video1.mp4'),(15,1,'itsme','video name must be here okay?','oooo descriotion','123','video1.mp4'),(16,1,'itsme','video name must be here okay?','oooo descriotion','123','video1.mp4'),(17,1,'itsme','video name must be here okay?','oooo descriotion','123','video1.mp4'),(18,1,'itsme','video name must be here okay?','oooo descriotion','123','video1.mp4');
+INSERT INTO `videos` VALUES (2,2000000000,'11111','video big name no realy big name','vi','1','video1.mp4'),(3,2,'21111','video big name no realy big name','2','2','video1.mp4'),(4,1,'11111','video big name no realy big name','1','1','video1.mp4'),(5,11,'11111','video big name no realy big name','1','1','video2.mp4'),(6,1,'1','1','1','1','video1.mp4'),(7,1,'1','1','1','1','video2.mp4'),(8,1,'itsme','video name must be here okay?','oooo descriotion','123','video1.mp4'),(9,1,'itsme','video name must be here okay?','oooo descriotion','123','video1.mp4'),(10,1,'itsme','video name must be here okay?','oooo descriotion','123','video1.mp4'),(11,1,'itsme','video name must be here okay?','oooo descriotion','123','video1.mp4'),(12,1,'itsme','video name must be here okay?','oooo descriotion','123','video1.mp4'),(13,1,'itsme','video name must be here okay?','oooo descriotion','123','video1.mp4'),(14,1,'itsme','video name must be here okay?','oooo descriotion','123','video1.mp4'),(15,1,'itsme','video name must be here okay?','oooo descriotion','123','video1.mp4'),(16,1,'itsme','video name must be here okay?','oooo descriotion','123','video1.mp4');
 /*!40000 ALTER TABLE `videos` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -53,4 +53,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-03-15  0:44:19
+-- Dump completed on 2021-03-25 17:11:16
