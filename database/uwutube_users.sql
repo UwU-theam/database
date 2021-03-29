@@ -29,7 +29,7 @@ CREATE TABLE `users` (
   `password` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `email_UNIQUE` (`email`)
-) ENGINE=InnoDB AUTO_INCREMENT=97 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=103 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -38,7 +38,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'incognito',NULL,NULL),(86,'david','david','123123'),(93,'','123123123123456789@#$',''),(94,'123','123123123!@#','123'),(95,'123123','123456789@#','123123'),(96,'123','qweadszcx@','123');
+INSERT INTO `users` VALUES (1,'incognito',NULL,NULL),(86,'david','david','123123'),(93,'','123123123123456789@#$',''),(94,'123','123123123!@#','123'),(95,'123123','123456789@#','123123'),(96,'123','qweadszcx@','123'),(97,'123','12312312312312qwrewtg','123'),(98,'123123','123456qwerty','123123'),(99,'123123','123123','123'),(100,'123','asdvbn@','asd'),(101,'123','123123@','123'),(102,'','12312311','David123!@#');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -51,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-03-25 17:11:14
+-- Dump completed on 2021-03-29 23:19:45
