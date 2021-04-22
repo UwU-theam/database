@@ -27,7 +27,7 @@ CREATE TABLE `list_videos` (
   `video_id` int DEFAULT NULL,
   `playlist_id` int DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -36,7 +36,6 @@ CREATE TABLE `list_videos` (
 
 LOCK TABLES `list_videos` WRITE;
 /*!40000 ALTER TABLE `list_videos` DISABLE KEYS */;
-INSERT INTO `list_videos` VALUES (1,49,1),(2,49,1);
 /*!40000 ALTER TABLE `list_videos` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -49,4 +48,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-03-29 23:19:45
+-- Dump completed on 2021-04-22 19:55:11
